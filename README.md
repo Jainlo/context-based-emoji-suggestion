@@ -7,11 +7,11 @@ http://hdl.handle.net/11356/1048.
 Two datasets were used 
 1. <a href="https://www.clarin.si/repository/xmlui/handle/11356/1048">Emoji Sentiment Ranking</a>
 2. <a href="https://www.kaggle.com/datasets/praveengovi/emotions-dataset-for-nlp?resource=download&select=val.txt">Emotions dataset for NLP</a>
-### merged into one dataset
-| Sentence      | Label         | Emoji         |
-| ------------- | ------------- | ------------- |
-| i didnt feel  | sadness       |               |
-| i am ever fe  | joy           |               |
+### Dataset after merge
+| Sentence                     | Label         | Emoji         |
+| ---------------------------- | ------------- | ------------- |
+| i didnt feel humiliated      | sadness       |               |
+| i am ever feeling nostalgic  | joy           |               |
 ## Process
 1. Train the model to classify text based on labels
 2. Each label forms a cluster of emojis
