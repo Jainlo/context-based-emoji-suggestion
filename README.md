@@ -4,14 +4,14 @@ Usually chat services suggest emojis based on the literal meaning of a word, an 
 doi:10.1371/journal.pone.0144296 
 http://hdl.handle.net/11356/1048.
 ## Dataset
-Two datasets where used 
+Two datasets were used 
 1. <a href="https://www.clarin.si/repository/xmlui/handle/11356/1048">Emoji Sentiment Ranking</a>
 2. <a href="https://www.kaggle.com/datasets/praveengovi/emotions-dataset-for-nlp?resource=download&select=val.txt">Emotions dataset for NLP</a>
-To create a single dataset:
-| Sentence      | Label         | Emoji         |               |
-| ------------- | ------------- | ------------- | ------------- |
-| i didnt feel  | sadness       | 😭           | Content Cell  |
-| i am ever fe  | joy           | ❤            | Content Cell  |
+### merged into one dataset
+| Sentence      | Label         | Emoji         |
+| ------------- | ------------- | ------------- |
+| i didnt feel  | sadness       |               |
+| i am ever fe  | joy           |               |
 ## Process
 1. Train the model to classify text based on labels
 2. Each label forms a cluster of emojis
