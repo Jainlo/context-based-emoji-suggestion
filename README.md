@@ -12,8 +12,11 @@ Two datasets were used
 | ---------------------------- | ------------- | ------------- |
 | i didnt feel humiliated      | sadness       |               |
 | i am ever feeling nostalgic  | joy           |               |
+| i feel pretty pathetic most  | sadness       |               |
+| i now feel compromised       | fear          |               |
+| i feel romantic too	       | love          |               |
 ## Process
 1. Train the model to classify text based on labels
-2. Each label forms a cluster of emojis
-3. The final emoji suggestion is the centroid of the clusterSS
+2. Each label forms a cluster of emojis <!-- supervised clustering -->
+3. The final emoji suggestion is the centroid of the clusters
 
