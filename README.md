@@ -16,7 +16,7 @@ Two datasets were used
 | i now feel compromised       | fear          |               |
 | i feel romantic too	       | love          |               |
 ## Process
-1. Train the model to classify text based on labels
-2. Each label forms a cluster of emojis <!-- supervised clustering -->
-3. The final emoji suggestion is the centroid of the clusters
+1. Train the model to classify text based on emotions
+2. Use the trained model to predict emotion based on emoji names e.g, FACE WITH TEARS OF JOY.
+3. Create a recommender that take the text and recommends an suitable emoji
 
