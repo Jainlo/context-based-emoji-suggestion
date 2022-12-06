@@ -7,16 +7,17 @@ http://hdl.handle.net/11356/1048.
 Two datasets were used 
 1. <a href="https://www.clarin.si/repository/xmlui/handle/11356/1048">Emoji Sentiment Ranking</a>
 2. <a href="https://www.kaggle.com/datasets/praveengovi/emotions-dataset-for-nlp?resource=download&select=val.txt">Emotions dataset for NLP</a>
-### Dataset after merge
-| Sentence                     | Label         | Emoji         |
+### Dataset 
+<!--| Sentence                     | Label         | Emoji         |
 | ---------------------------- | ------------- | ------------- |
 | i didnt feel humiliated      | sadness       |               |
 | i am ever feeling nostalgic  | joy           |               |
 | i feel pretty pathetic most  | sadness       |               |
 | i now feel compromised       | fear          |               |
-| i feel romantic too	       | love          |               |
+| i feel romantic too	       | love          |               | -->
 ## Process
-1. Train the model to classify text based on emotions
-2. Use the trained model to predict emotion based on emoji names e.g, FACE WITH TEARS OF JOY.
-3. Create a recommender that take the text and recommends an suitable emoji
+1. Train a deep learning model to classify text based on emotions
+2. Use the trained model to predict emotion of emojis using their unicode names e.g, FACE WITH TEARS OF JOY.
+    - This step creates a new table that we'll use for the recommender. 
+3. Create a recommender that takes text and recommends a suitable emoji
 
