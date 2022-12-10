@@ -4,10 +4,10 @@ Usually chat services suggest emojis based on the literal meaning of a word, an 
 doi:10.1371/journal.pone.0144296 
 http://hdl.handle.net/11356/1048.
 ## Dataset
-Two datasets were used 
+Three datasets were used 
 1. <a href="https://www.clarin.si/repository/xmlui/handle/11356/1048">Emoji Sentiment Ranking</a>
 2. <a href="https://www.kaggle.com/datasets/praveengovi/emotions-dataset-for-nlp?resource=download&select=val.txt">Emotions dataset for NLP</a>
-### Dataset 
+3. <a href="https://www.kaggle.com/datasets/rexhaif/emojifydata-en?select=emojitweets-01-04-2018.txt">EmojifyData-EN: English tweets, with emojis</a>
 <!--| Sentence                     | Label         | Emoji         |
 | ---------------------------- | ------------- | ------------- |
 | i didnt feel humiliated      | sadness       |               |
@@ -16,8 +16,9 @@ Two datasets were used
 | i now feel compromised       | fear          |               |
 | i feel romantic too	       | love          |               | -->
 ## Process
-1. Train a deep learning model to classify text based on emotions
-2. Use the trained model to predict emotion of emojis using their unicode names e.g, FACE WITH TEARS OF JOY.
-    - This step creates a new table that we'll use for the recommender. 
-3. Create a recommender that takes text and recommends a suitable emoji
+1. Use transformers for emotion classification of text
+2. Use tweets as input for transfer learning
+3. After finding the emotions of tweets, classify emojis by emotion creating a -tweet, emoji, emotion- dataset
+4. Merge the newly created dataset with <a href="https://www.kaggle.com/datasets/praveengovi/emotions-dataset-for-nlp?resource=download&select=val.txt">the emotions dataset for NLP</a>
+5. Create a deep learning model that takes text messages and predicts a number of possible emojis
 
