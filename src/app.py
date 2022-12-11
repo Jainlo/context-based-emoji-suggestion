@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 #import
 
-st.title("The emoji predictor😊🌸")
+st.title("Emoji suggestion😊🌸")
 st.write("""Input your boring text and watch our Artificial Intelligence add some spice to your words🥳😇🌈""")
 
 #st.write("""
