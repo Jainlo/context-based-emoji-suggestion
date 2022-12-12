@@ -1,8 +1,7 @@
-# Context Based Emoji Suggestion
+# Emotion Based Emoji Suggestion
 ## About
-Usually chat services suggest emojis based on the literal meaning of a word, an alternative and better way is to have it suggest an emoji based on the context or emotion of the conversation. So instead of classifying text as positive, neutral or negative, the model should classify text based on the following emotions (joy, fear, sadness, anger, surprise, love). each emotion is associated with different emojis - The process and analysis of emoji sentiment ranking is described in the paper: Kralj Novak P, Smailović J, Sluban B, Mozetič I (2015) Sentiment of Emojis. PLoS ONE 10(12): e0144296. 
-doi:10.1371/journal.pone.0144296 
-http://hdl.handle.net/11356/1048.
+Usually chat services suggest emojis based on the literal meaning of the last word in a text message instead of taking the whole message into account, an alternative and better way is to have it suggest an emoji based on the emotion of the full text or conversation.  
+The emotions considered in this project are: joy😃 fear😱 sadness😢 anger😡 surprise😯 love🥰
 ## Dataset
 Three datasets were used 
 1. <a href="https://www.clarin.si/repository/xmlui/handle/11356/1048">Emoji Sentiment Ranking</a>
