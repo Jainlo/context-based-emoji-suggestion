@@ -21,4 +21,5 @@ Three datasets were used
 4. Merge the newly created dataset with <a href="https://www.kaggle.com/datasets/praveengovi/emotions-dataset-for-nlp?resource=download&select=val.txt">the emotions dataset for NLP</a>
 5. Create a random forest model that takes text messages and suggests an emoji
 ## Interface
-image.png
+<img src="../data/interface.png">
+
