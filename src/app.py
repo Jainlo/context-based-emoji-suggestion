@@ -13,5 +13,5 @@ if st.button('submit sentence') or text_input:
 
     with st.spinner("Starting emoji prediction .."):
         output = RF_model(text_input)
-        st.success(output)
+        st.success(text_input+ " " +output)
         st.balloons()

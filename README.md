@@ -19,5 +19,6 @@ Three datasets were used
 2. Use tweets as input for transfer learning
 3. After finding the emotions of tweets, classify emojis by emotion creating a -tweet, emoji, emotion- dataset
 4. Merge the newly created dataset with <a href="https://www.kaggle.com/datasets/praveengovi/emotions-dataset-for-nlp?resource=download&select=val.txt">the emotions dataset for NLP</a>
-5. Create a deep learning model that takes text messages and predicts a number of possible emojis
-
+5. Create a random forest model that takes text messages and suggests an emoji
+## Interface
+image.png
